@@ -1,0 +1,9 @@
+﻿pandas
+scikit-learn
+matplotlib
+joblib
+requests
+fastapi
+uvicorn
+pytest
+httpx
