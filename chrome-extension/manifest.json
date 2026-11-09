@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Sentiment",
+  "version": "1.1.0",
+  "description": "Analyse du sentiment des commentaires YouTube.",
+ "permissions": ["activeTab", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://127.0.0.1/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
