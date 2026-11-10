@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://supreme-telegram-g469prxwq6x52vqvq-7860.app.github.dev";
 let latestAnalysis = null;
 
 const status = document.getElementById("status");

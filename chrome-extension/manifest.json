@@ -7,9 +7,10 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "host_permissions": [
-    "http://127.0.0.1/*"
-  ],
+ "host_permissions": [
+  "http://127.0.0.1/*",
+  "https://supreme-telegram-g469prxwq6x52vqvq-7860.app.github.dev/*"
+],
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
